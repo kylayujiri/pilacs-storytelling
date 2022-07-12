@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Storytelling Test</title>
+  <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0,width=device-width" />
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <canvas id="canvas"></canvas>
+
+  <div id="flowchart">
+
+    <!-- TEACHER BUTTONS -->
+    <div id="teachers">
+      <button type="button" data-teacher-id="-1" class="teacher">Reset</button>
+      <button type="button" data-teacher-id="0" class="teacher">Teacher 0</button>
+      <button type="button" data-teacher-id="1" class="teacher">Teacher 1</button>
+      <button type="button" data-teacher-id="2" class="teacher">Teacher 2</button>
+    </div>
+
+    <!-- MODALS -->
+
+    <div class="modal" data-index="0">
+      <div class="modal-content">
+        <h1>Node 1 Heading</h1>
+        <p>This is the modal.</p>
+        <p>It will contain all the content of the node.</p>
+        <p>There will be a player for audio and ways to hopefully navigate to other nodes.</p>
+      </div>
+    </div>
+
+    <div class="modal" data-index="1">
+      <div class="modal-content">
+        <h1>This is the second node</h1>
+        <p>It will have all the content for the node</p>
+        <audio controls>
+          <!-- media types: mp3, ogg, wav -->
+          <source src="horse.ogg" type="audio/ogg">
+          <source src="horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+
+    <div class="modal" data-index="2">
+      <div class="modal-content">
+        <h1>This is the header</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+
+    <div class="modal" data-index="3">
+      <div class="modal-content">
+        <h1>This is the header</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+
+    <div class="modal" data-index="4">
+      <div class="modal-content">
+        <h1>This is the header</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+
+    <div class="modal" data-index="5">
+      <div class="modal-content">
+        <h1>This is the header</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+
+    <div class="modal" data-index="6">
+      <div class="modal-content">
+        <h1>This is the header</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+
+    <div class="modal" data-index="7">
+      <div class="modal-content">
+        <h1>This is the header</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+
+    <!-- NODES -->
+    <div class="rows">
+      <div class="row">
+        <div class="node" data-index="0">
+          <h2>Teacher Name</h2>
+          <button type="button">Open Modal</button>
+        </div>
+
+        <div class="node" data-index="1">
+          <h2>Teacher Name</h2>
+          <button type="button">Open Modal</button>
+        </div>
+
+        <div class="node" data-index="4">
+          <h2>Teacher Name</h2>
+          <button type="button">Open Modal</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="node" data-index="2">
+          <h2>Node</h2>
+          <button type="button">Open Modal</button>
+        </div>
+
+        <div class="node" data-index="3">
+          <h2>Node</h2>
+          <button type="button">Open Modal</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="node" data-index="5">
+          <h2>Node</h2>
+          <button type="button">Open Modal</button>
+        </div>
+
+        <div class="node" data-index="6">
+          <h2>Node</h2>
+          <button type="button">Open Modal</button>
+        </div>
+
+        <div class="node" data-index="7">
+          <h2>Node</h2>
+          <button type="button">Open Modal</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
